@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left-container, .right-container {
+    width: 50%;
+    padding: 10px; 
+}
+
+.left-container {
+    background-color: rgba(207, 207, 255, 0.422);
+}
+
+.left {
+    margin: 150px 30px 50px 100px;
+}
+
+.right-container {
+    background-color: #e0e0e0;
+    overflow-y: auto;
+}
+
+.right-container span p {
+    margin: 10vw;
+}
+
+.right-container h2 {
+    margin: 20px;
+}
+
+.textarea {
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border: 2px solid #fff;
+    outline: none;
+}
+
+.textarea:focus {
+    border-color: #78e33b; 
+}
+
+.color {
+    margin: 20px;
+}
+
+.buttons {
+    padding: 20px 50px;
+    border-radius: 50px;
+    background-color: rgb(151, 248, 172);
+}
+
+.buttons:hover {
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 30%;
+    aspect-ratio: 1 / 1;
+    padding: 5px;
+    position: relative;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.card-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
